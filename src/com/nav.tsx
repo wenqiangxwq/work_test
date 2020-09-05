@@ -7,7 +7,6 @@ interface IProps {
   navList: Array<IObj>;
 }
 export default function ({ navList }: IProps) {
-  console.log(navList);
   return (
     <div className="container">
       {navList.map((item) => {
